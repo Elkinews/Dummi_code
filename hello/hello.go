@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"example.com/grettings"
+	"example.com/greetings"
 )
 
 func main() {
-	// Get a gretting message and print it.
-	message := grettings.Hello("Eugenia")
+	//Get a greeting message and print it
+	message := greetings.Hello("Ortencia")
 	fmt.Println(message)
 }
